@@ -232,4 +232,21 @@ header .navbar {
         margin-top: 17px;
         font-size: var(--font-size-l);
     }
+    .hero-section .section-content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 58px;
+        text-align: center;
+        padding: 30px 20px 20px;
+    }
+    .hero-section .hero-details :is(.subtitle, .description){
+        max-width: 100%;
+    }
+    .hero-section .hero-details .buttons{
+        justify-content: center;
+    }
+    .hero-section .hero-image-wrapper{
+        max-width: 270px;
+        margin-right: 0px;
+    }
 }
